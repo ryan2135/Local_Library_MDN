@@ -18,6 +18,12 @@
 				"mongodb.mongodb-vscode"
 			]
 		}
+	},
+	"portsAttributes": {
+		"3000": {
+			"label": "Application",
+			"onAutoForward": "openPreview"
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

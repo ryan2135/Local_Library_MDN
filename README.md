@@ -1,3 +1,21 @@
+# Updated 5.30.25
+
+Original docs: https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started
+
+It's been a couple of years since I've gone through this tutorial. I spun this up today doing the following:
+
+1. Created a codespace off the repos
+2. Changed into the directory express-locallibrary-tutorial
+3. Started up server
+<pre>DEBUG=express-locallibrary-tutorial:* npm start</pre>
+4. Created book db 
+<pre>node populatedb.js mongodb://127.0.0.1/local_library</pre>
+
+I would like to reproduce this tutorial more professionally using React.
+
+<hr style="border:2px solid gray">
+
+
 # IMPORTANT:
 
 ## How to recreate this dev environment from scratch:
